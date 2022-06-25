@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #114c72;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper .carousel {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 60px;
+}
+
+.carousel .card {
+  height: 400px;
+  border-radius: 5px;
+}
+
+#c1 {
+  background: url(./img/story1.jpg) no-repeat center center/cover;
+}
+
+#c2 {
+  background: url(./img/mca.jpg) no-repeat center center/cover;
+}
+
+#c3 {
+  background: url(./img/history.jpg) no-repeat center center/cover;
+}
+
+#c4 {
+  background: url(./img/mca2.jpg) no-repeat center center/cover;
+}
+
+#c5 {
+  background: url(./img/story2.jpg) no-repeat center center/cover;
+}
+
+#c6 {
+  background: url(./img/story3.jpg) no-repeat center center/cover;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+  border: 2px solid #fff !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot:hover,
+.owl-dot.active {
+  background-color: #fff !important;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.owl-prev {
+  left: 40px;
+}
+
+.owl-next {
+  right: 20px;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 30px;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.fa-chevron-left:hover,
+.fa-chevron-right:hover {
+  color: #777;
+}
+
+.button {
+  background-color: wheat;
+  border: none;
+  color: black;
+  padding: 5px 25px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn{
+  background-color: wheat;
+  border: none;
+  color: black;
+  margin-top: 200px;
+  margin-bottom:40px;
+  padding: 5px 25px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
